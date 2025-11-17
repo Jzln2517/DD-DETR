@@ -1,0 +1,4 @@
+测试并转COCO指标格式流程：
+python val.py
+python dataset/yolo2coco.py --image_path D:\Datasets\VisDrone2019\images\test --label_path D:\Datasets\VisDrone2019\labels\test
+python get_COCO_metrice.py --pred_json E:\Code\DD-DETR\main\runs\test-visdrone-5070\rtdetr-C2f-CFBlock-LRSA-GCConvC3-300\predictions.json --anno_json data.json
