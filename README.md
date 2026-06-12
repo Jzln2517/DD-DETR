@@ -109,7 +109,7 @@ After downloading, modify the dataset path in the corresponding config file if n
 ```bash
 python train.py 
 ```
-
+The network architecture is initialized from the structured configuration file without loading any macro-dataset pretrained weights, and then runs a training-from-scratch pipeline.
 ---
 
 ## 🔎 Validation and Inference
